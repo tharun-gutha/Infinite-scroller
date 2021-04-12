@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:linear-gradient(90deg,#70e1f5,#ffd194);
+    font-family: 'Poppins', sans-serif;
+    color: #FF6B6B;
+}
+.container{
+    margin: 0 auto;
+    max-width: 600px;
+}
+.blogpost{
+    background-color: white;
+    padding: 40px;
+    margin: 50px 0;
+    border-radius: 6px;
+}
+h1{
+    margin-top: 5px;
+}
+
+.text{
+    margin: 20px 0;
+}
+.userinfo{
+    display: flex;
+    align-items: center;
+}
+.userinfo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.userinfo span{
+    margin-left: 15px;
+}
